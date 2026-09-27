@@ -1,0 +1,13 @@
+# Steam -> Fallout 4 -> Properties -> Launch Options
+# Swaps the vanilla launcher for F4SE's loader inside Proton. No manager needed.
+
+bash -c 'exec "${@/Fallout4Launcher.exe/f4se_loader.exe}"' -- %command%
+
+# Variants:
+#   with the "Upscaling" DLAA mod (needs NVAPI):
+#   PROTON_ENABLE_NVAPI=1 bash -c 'exec "${@/Fallout4Launcher.exe/f4se_loader.exe}"' -- %command%
+#
+#   debugging a launch failure (writes steam-377160.log next to the prefix):
+#   PROTON_LOG=1 bash -c 'exec "${@/Fallout4Launcher.exe/f4se_loader.exe}"' -- %command%
+#
+# Never add DXVK_FRAME_RATE= or a MangoHud fps limit: High FPS Physics Fix owns the cap.

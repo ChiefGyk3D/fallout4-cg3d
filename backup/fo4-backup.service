@@ -1,0 +1,9 @@
+[Unit]
+Description=Back up Fallout 4 saves (local snapshots + optional NAS)
+Documentation=https://github.com/ChiefGyk3D/fallout4-cg3d
+
+[Service]
+Type=oneshot
+ExecStart=%h/mods/fallout4/backup/backup_fo4_saves.sh
+Nice=10
+IOSchedulingClass=idle

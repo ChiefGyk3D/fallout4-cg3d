@@ -1,0 +1,21 @@
+# ── Large binary assets (downloaded archives, extracted mod data) ──
+mod_files/
+mods/
+downloads/
+
+# ── Save backups (managed via the backup script, not git) ──
+saves_backup_*/
+
+# ── Local secrets / machine-specific config ──
+*.env
+.nexus_apikey
+apikey
+
+# ── OS / editor junk ──
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+deploy_manifest.txt

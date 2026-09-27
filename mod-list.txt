@@ -1,0 +1,123 @@
+FALLOUT 4 (STEAM + PROTON) MOD DOWNLOAD LIST
+=============================================
+All mods from Nexus Mods (fallout4) unless noted. STATUS: TESTING / YMMV.
+Format: [STATUS] FOLDER - Name | Nexus ID | notes
+Keep the Nexus filenames: extract_mods.sh matches archives on the mod ID
+("<Name>-<id>-<version>-<timestamp>.7z"). Multi-file mods: download every
+file listed; all archives for an ID land in the same folder.
+
+Game version target: Steam 1.11.240 + F4SE 0.7.9 (see FO4_BUILD_SHEET.md).
+DLC: all official DLC required (UFO4P 2.2.x). Official HD Texture Pack: NOT installed.
+
+================================================================================
+TIER 1: FOUNDATION & FIXES (required unless marked optional)
+================================================================================
+
+[NEED] 001 - F4SE 0.7.9 | https://f4se.silverlock.org (f4se_0_07_09.7z) | game-root install; update the day of any Steam patch
+[NEED] 002 - Address Library for F4SE Plugins | 47327 | "All In One" file
+[NEED] 003 - Addictol + Addictol Crash Logger | 84214 | both files; replaces Buffout/X-Cell/ScrapHeap
+[NEED] 004 - High FPS Physics Fix | 44798 | config: config/HighFPSPhysicsFix.ini
+[NEED] 005 - Hydra | 104159 | optional library (replaces Papyrus Common Library)
+[NEED] 006 - Garden of Eden Papyrus Script Extender | 74160 | optional library
+[NEED] 007 - Random Encounter Framework | 60074 | optional library
+[NEED] 010 - Unofficial Fallout 4 Patch 2.2.1a | 4598 | requires 1.11.221+ and all DLC
+[NEED] 011 - Community Fixes Merged 4.6.x | 74945 | FOMOD: core only
+[NEED] 012 - The Midnight Ride - Glitchfinder All-In-One | 74949 |
+[NEED] 013 - Sprint Stuttering Fix | 47760 | optional; may overlap Addictol module
+[NEED] 014 - Empty Vendor List Engine Bug Fix | 83252 | optional
+[NEED] 015 - Magic Effect and Spell Engine Fixes | 83433 | optional
+[NEED] 016 - Armor Penetration Bug Fix - AE | 73849 | optional; AE file
+[NEED] 017 - Follower AI Approach Reaction Fix | 92024 | optional
+[NEED] 018 - Rain Bug Fix - AE | 106989 | optional; AE file
+[NEED] 020 - Wetness Shader Fix | 23389 | optional
+[NEED] 021 - Fixed Gobo Effects | 27445 | optional
+[NEED] 022 - Flutter Flicker Fixer for Foliage | 79853 | PRP file
+[NEED] 023 - Motion Vector Fixes | 98544 | optional
+[NEED] 024 - Weapon Debris Crash Fix | 48078 | required on RTX
+[NEED] 030 - Previsibines Repair Pack (Stable) 81.9 | 46403 | requires AE assets + latest UFO4P; plugin loads LAST
+[NEED] 040 - RAW INPUT | 27019 | optional
+
+================================================================================
+TIER 2: VANILLA-PLUS VISUALS + UI (optional, recommended)
+================================================================================
+
+[NEED] 100 - Mod Configuration Menu (1.11.240 build) | 21497 |
+[NEED] 101 - HUDFramework | 20309 |
+[NEED] 102 - FallUI - HUD | 51813 | also Inventory / Map / Sleep and Wait / Confirm Boxes from the FallUI family (find via the author's page)
+[NEED] 103 - Extended Dialogue Interface (XDI) | 27216 |
+[NEED] 104 - Crafting Highlight Fix | 27479 |
+[NEED] 105 - Workshop Highlight Fix | 83706 |
+[NEED] 110 - Lightweight Lighting | 57680 | the lighting/weather pick; no ENB
+[NEED] 111 - Gloomy Glass | 62518 |
+[NEED] 120 - Targeted Textures | 62958 | faithful base texture layer
+[NEED] 121 - Vivid Fallout - All in One (2K) | 25714 | main pack (Apr 2026 update, NG-safe)
+[ALT]  121 - Luxor's Fallout 4 HD Overhaul 2K | 65720 | alternative main pack; pick ONE; 43 GB
+[NEED] 122 - Fallout 4 HD Reworked Project | 10467 | optional filler
+[NEED] 123 - Fallout 4 Particle Patch - No More Glowing Objects | 68599 |
+[NEED] 124 - Enhanced Vanilla Water | 97214 |
+[NEED] 125 - Terrain Freckles Be Gone | 99314 |
+[NEED] 126 - Sniper Scope Overlay Overhaul | 101600 |
+[NEED] 127 - Diamond City Billboards | 71990 |
+[NEED] 128 - Diamond City Supplements | 75054 |
+[NEED] 129 - Goodneighbor View | 72021 |
+[NEED] 130 - FO4LODGen Resources | 80276 | LOD set, in this order
+[NEED] 131 - FOLIP - Far Object LOD Improvement Project 8.x | 61884 |
+[NEED] 132 - Far Harbor 3D Tree LODs | 63191 |
+[NEED] 133 - Optimized Vanilla Tree LODs | 63198 |
+[NEED] 134 - Northern Foothills Rocks Fix | 70237 |
+[NEED] 135 - (generated LOD: xLODGen output or FOLIP/TMR pregenerated package) | - | folder 135_generated_lod
+[NEED] 140 - Enhanced Blood Textures | 212 | optional
+[NEED] 141 - Pip-Boy Flashlight | 10840 | optional; needs its INI edits
+[NEED] 142 - Upscaling (DLSS/FSR/DLAA) | 99130 | optional; Linux unconfirmed; PROTON_ENABLE_NVAPI=1
+[NEED] 143 - This Made My Spline Stiff | 98935 | with 142
+
+================================================================================
+TIER 3: FAITHFUL GAMEPLAY / QoL / AUDIO (optional)
+================================================================================
+
+[NEED] 200 - Assorted Modular Tweaks - ESPless | 84440 |
+[NEED] 201 - Bullet Counted Reload System | 41178 | + lever-action optional file
+[NEED] 202 - Classic Holstered Weapons | 46101 |
+[NEED] 203 - Remove Ammo from Dropped Guns | 64426 |
+[NEED] 204 - Remember Lockpick Angle NG/AE | 96130 |
+[NEED] 205 - Less Annoying Berry Mentats | 11838 |
+[NEED] 206 - To Your Face | 73259 |
+[NEED] 207 - Deadeye Weapon Effect Fix | 57838 |
+[NEED] 208 - Simple Offence Suppression | 75292 |
+[NEED] 209 - Faster Workbench Exit | 70013 |
+[NEED] 210 - Dogmeat Lags Behind | 107231 |
+[NEED] 211 - Simple Everyone's Best Friend | 92314 |
+[NEED] 212 - Integrated Addons | 92016 |
+[NEED] 213 - Keep Radiants in the Commonwealth (UFO4P) | 56089 |
+[NEED] 214 - Encounter Zone Recalculation AE | 99587 |
+[NEED] 215 - Who's The General | 59019 | + patch hub 99080
+[NEED] 216 - Legendary Mutation Messages Fix | 63929 |
+[NEED] 217 - Unused Map Markers | 64009 |
+[NEED] 218 - Nuka World Cut Content Restored | 106236 |
+[NEED] 219 - DLC Cut Content Restoration Project | 29058 |
+[NEED] 220 - Refreshing Checkpoints | 102596 | optional
+[NEED] 221 - Molotov Cocktail Nerf | 15364 | optional
+[NEED] 222 - Place Everywhere (1.11.240 build) | 9424 | optional, mild
+[NEED] 223 - Unlimited Survival Mode | 26163 | survival only
+[NEED] 224 - Safe Travels | 102931 | survival only
+[NEED] 300 - Reverb and Ambiance Overhaul | 10189 | + weather patches (45429)
+[NEED] 301 - P.A.M.S - Power Armor Movement Sounds | 1544 |
+[NEED] 302 - High-Fidelity Sounds Project | 101798 | optional; literal remaster audio
+[NEED] 303 - Ambient Wasteland | 25343 | optional
+
+================================================================================
+DO NOT INSTALL (superseded / strays) — see fo4_install_order.md
+================================================================================
+Official HD Texture Pack DLC · Boston FPS Fix · Buffout 4 / NG / AE · X-Cell ·
+Baka ScrapHeap · Long Loading Times Fix · DEF_UI · Full Dialogue Interface ·
+NAC X · Vivid Weathers · ELFX / UIL · Better Locational Damage · Immersive
+Gameplay · Sim Settlements 2 · Better Settlers · Loot Logic · Complex Vendors ·
+ENB presets · PureDark DLSS/FG · Fallout 4 Vulkan Renderer ·
+A StoryWealth (921-mod Vortex collection: source list for a later stage only)
+
+================================================================================
+FUTURE SOURCE LISTS ("more Commonwealth" stage, after Tiers 1-3 are stable)
+================================================================================
+- A StoryWealth collection (lore-friendly quest mods) https://www.nexusmods.com/games/fallout4/collections/5atq9t
+- FUSION modlist (heavier vanilla-plus visuals) https://github.com/SpringHeelJon/FO4-FUSION
+- The Midnight Ride "Extended" section https://themidnightride.moddinglinked.com/
