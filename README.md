@@ -22,7 +22,8 @@ Reproducible setup for a **vanilla-plus Fallout 4** on Linux (Steam + Proton). S
 | File | Purpose |
 |------|---------|
 | **`GAME_NIGHT_RUNBOOK.md`** | **Prep-night / game-night checklist**: every command and download in order |
-| `FO4_BUILD_SHEET.md` | The foundation decisions and why, paths inside the Proton prefix, version lock, launch line |
+| `FO4_BUILD_SHEET.md` | The foundation decisions, paths inside the Proton prefix, version lock, launch line |
+| **`RESEARCH_AND_DECISIONS.md`** | **Goals, current state, and the decision record**: every foundation choice with alternatives, evidence, sources, and what is still unverified |
 | `fo4_install_order.md` | Tiered, layered install order with rationale; the "deliberately skipped" list |
 | `mod-list.txt` | Every mod with Nexus ID, target folder, download status |
 | `tools_reference.md` | F4SE, Addictol, LOOT (Flatpak), DepotDownloader rollback, managers, audio fix, diagnostics |
@@ -55,6 +56,14 @@ For the real session follow **`GAME_NIGHT_RUNBOOK.md`**; the short version:
 5. Copy `config/Fallout4Custom.ini`, merge `config/Fallout4Prefs-tuning.ini` and `config/HighFPSPhysicsFix.ini`, set the launch line from `config/steam-launch-options.txt`
 6. `./check_setup.sh` until 0 errors, lock the app manifest
 7. Tier 1 test drive, then Tier 2, then Tier 3
+
+## Project state
+
+**Research complete, scripts tested on synthetic data, zero real-machine runs.**
+The full state table, goals, and every decision's reasoning live in
+[`RESEARCH_AND_DECISIONS.md`](RESEARCH_AND_DECISIONS.md); the per-mod status is
+in [`mod-list.txt`](mod-list.txt). Next milestone: first prep night
+([`GAME_NIGHT_RUNBOOK.md`](GAME_NIGHT_RUNBOOK.md)).
 
 ## Known issues / open questions (testing status)
 
